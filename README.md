@@ -48,8 +48,8 @@ To get you started, we created a set of samples (C# and F#).  These samples have
 # Offline 
 
 ### Installation 
-- [**Getting started on Windows**](##Windows)
-- [**Getting started on macOS**](##MacOs)
+- [**Getting started on Windows**](#windows)
+- [**Getting started on macOS**](#macos)
 
 ## Windows 
 
