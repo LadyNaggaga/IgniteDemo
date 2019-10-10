@@ -1,17 +1,18 @@
 # WIP : Jupyter + .NET Preview 1 documentation 
 
+
 # Online
 
 We have provided two online experiences to get you started. 
 
-- [Try our .NET Notebook](##try-jupyter-+-.net)
+- [Try our .NET Notebook](#try-jupyter--net)
 - Deploy a .NET Notebook on [binder](https://mybinder.org/)
 
 ## Try Jupyter + .NET 
 
 Requirement :  A browser
 
-To get you started, we created a set of samples (C# and F#).  These samples have been designed to provide a zero-install experience, allowing you to try the .NET kernel. 
+To get you started, we created a set of samples (C# and F#).  These samples have been designed to provide a zero-install experience, allowing you to try the .NET kernel setup free.
 
 ### Steps
 
@@ -42,8 +43,9 @@ To get you started, we created a set of samples (C# and F#).  These samples have
      ![image](https://user-images.githubusercontent.com/2546640/66444785-89940180-ea12-11e9-8c98-4ce5c1dfc1a4.png)
      ![image](https://user-images.githubusercontent.com/2546640/66444810-a92b2a00-ea12-11e9-855f-c933d3367778.png)
 
+## Deploy a .NET Notebook on [binder](https://mybinder.org/)
 
-
+TBW
 
 # Offline 
 
@@ -68,7 +70,11 @@ Requirements
 - Install the kernel 
 
     `dotnet try jupyter install`
+- Test installation 
 
+    `jupyter kernelspec list`
+
+    You should see the `.net-csharp`  and `.net-fsharp` listed.
 ## MacOS
 Requirements
 - [.NET 3.0 SDK](https://dotnet.microsoft.com/download)
