@@ -1,12 +1,14 @@
 # WIP : Jupyter + .NET Preview 1 documentation 
 
+- [Getting started online](#online)
+- [Getting started on your machine](#on-your-machine) 
 
 # Online
 
 We have provided two online experiences to get you started. 
 
 - [Try our .NET Notebook](#try-jupyter--net)
-- Deploy a .NET Notebook on [binder](https://mybinder.org/)
+- Create your own [Binder](https://mybinder.org/)
 
 ## Try Jupyter + .NET 
 
@@ -16,7 +18,7 @@ To get you started, we created a set of samples (C# and F#).  These samples have
 
 ### Steps
 
-- Click on the **launch binder** badge. 
+- Click on the **launch binder** badge below. 
 
     [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try/master)
 
@@ -25,8 +27,8 @@ To get you started, we created a set of samples (C# and F#).  These samples have
     ![Binder - Google Chrome 2019-10-08 19-48-33](https://user-images.githubusercontent.com/2546640/66441636-c9a0b780-ea05-11e9-9554-caf4fd7dfcde.gif)
 
 -  Select one of the .NET folder options C# or F#
--  In the C# or F# folder you will find a demo a samples folder.
-    - Demo folder - A how to guide that goes over formatting, plotting, magic commands etc. 
+-  In the C# or F# folder you will find a Docs and a samples folder.
+    - Docs folder - A how to guide that goes over formatting, plotting, magic commands etc. 
     ![image](https://user-images.githubusercontent.com/2546640/66443156-fb1c8180-ea0b-11e9-9a75-c9e8a0b415ab.png)
 
     - Samples folder - Contains a set of samples that you learn and experiment with. 
@@ -43,11 +45,11 @@ To get you started, we created a set of samples (C# and F#).  These samples have
      ![image](https://user-images.githubusercontent.com/2546640/66444785-89940180-ea12-11e9-8c98-4ce5c1dfc1a4.png)
      ![image](https://user-images.githubusercontent.com/2546640/66444810-a92b2a00-ea12-11e9-855f-c933d3367778.png)
 
-## Deploy a .NET Notebook on [binder](https://mybinder.org/)
+## Deploy &  Share your .NET Notebook on [binder](https://mybinder.org/)
 
 TBW
 
-# Offline 
+# On your machine
 
 ### Installation 
 - [**Getting started on Windows**](#windows)
@@ -60,21 +62,41 @@ Requirements
 - [Jupyter](https://jupyter.org/install) : JupyterLab can be installed using [Anaconda](https://www.anaconda.com/distribution) or  `conda` or `pip`. For more details on how to do this please checkout the [offical Jupyter installation](https://jupyter.org/install) guide.
 
 ### Install the .NET Kernel
-
+- Open Command Prompt or if you have Anaconda installed use Anaconda Prompt
 - Install the dotnet try global tool
 
     `dotnet tool install -g dotnet-try --add-source https://dotnet.myget.org/F/dotnet-try/api/v3/index.json`
 
 *Please note: If you have the `dotnet try` global tool already installed, you will need to uninstall before grabbing the kernel enabled version of the dotnet try global tool.*
+- Check to see if jupyter is installed 
 
+    `jupyter kernelspec list`
 - Install the kernel 
 
     `dotnet try jupyter install`
+    
+    ![image](https://user-images.githubusercontent.com/2546640/63954737-93106e00-ca51-11e9-8c72-939f3f558d05.png)
+
 - Test installation 
 
     `jupyter kernelspec list`
 
     You should see the `.net-csharp`  and `.net-fsharp` listed.
+
+    [Insert Image here]
+-  You can use either one the commands below to a start a notebook.  
+
+    `jupyter notebook` - Starts Jupyter notebooks.
+
+    Or
+   
+    `jupyter lab` - Starts [Jupyter Lab](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)
+- Click new and select one of the .NET options C# or F#
+
+    ![image](https://user-images.githubusercontent.com/2546640/66432173-70c42580-e9eb-11e9-895e-d08cb2f5c54d.png)    
+
+-  Now you can write .NET 
+    ![image](https://user-images.githubusercontent.com/2546640/66432344-d9ab9d80-e9eb-11e9-9a88-cdd9a349b58f.png)
 ## MacOS
 Requirements
 - [.NET 3.0 SDK](https://dotnet.microsoft.com/download)
@@ -86,7 +108,7 @@ Requirements
         `jupyter notebook`
 
 ### Install the .NET Kernel
-
+- Open Terminal 
 - Install the dotnet try global tool
 
     `dotnet tool install -g dotnet-try --add-source https://dotnet.myget.org/F/dotnet-try/api/v3/index.json`
