@@ -67,6 +67,17 @@ Requirements
 - Copy the following files into your repo 
     - [NuGET.config](https://github.com/dotnet/try/blob/master/NuGet.config)
     - [Docker File](https://github.com/dotnet/try/blob/master/Dockerfile)
+- Push your changes to GitHub.
+![image](https://user-images.githubusercontent.com/2546640/66759667-aabf7c80-ee6e-11e9-9f2c-866b208c785d.png)
+- Go to [Binder](https://mybinder.org/)
+- Enter GitHub repository name or URL
+![image](https://user-images.githubusercontent.com/2546640/66759813-ee19eb00-ee6e-11e9-9f03-410a7b20a1de.png)
+- Click **launch**: Please note this might take several minutes.
+- Once your Binder is ready, you can share by:  
+    - Sharing your Url  with others 
+      ![image](https://user-images.githubusercontent.com/2546640/66761247-a052b200-ee71-11e9-8afe-9aaaa3bb70b5.png)
+    - Including the binder badge in your repo.
+    ![image](https://user-images.githubusercontent.com/2546640/66761314-bfe9da80-ee71-11e9-8b9c-0668d03942bd.png)
 
 # On your machine
 
