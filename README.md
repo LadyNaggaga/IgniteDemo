@@ -20,7 +20,8 @@ To get you started, we created a set of samples (C# and F#).  These samples have
 
 - Click on the **launch binder** badge below. 
 
-   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LadyNaggaga/IgniteDemo/master)
+   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try/master)
+
 
 - This launches the binder service.
 
@@ -45,7 +46,7 @@ To get you started, we created a set of samples (C# and F#).  These samples have
      ![image](https://user-images.githubusercontent.com/2546640/66444785-89940180-ea12-11e9-8c98-4ce5c1dfc1a4.png)
      ![image](https://user-images.githubusercontent.com/2546640/66444810-a92b2a00-ea12-11e9-855f-c933d3367778.png)
 
-## Deploy &  Share your .NET Notebook on [binder](https://mybinder.org/)
+## Share your .NET Notebook on [binder](https://mybinder.org/)
 
 Requirements 
 -  Git Repo
