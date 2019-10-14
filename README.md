@@ -8,7 +8,7 @@
 We have provided two online experiences to get you started. 
 
 - [Try our .NET Notebook](#try-jupyter--net)
-- Create your own [Binder](https://mybinder.org/)
+- [Create your own Binder](#deploy---share-your-net-notebook-on-binder)
 
 ## Try Jupyter + .NET 
 
@@ -47,7 +47,24 @@ To get you started, we created a set of samples (C# and F#).  These samples have
 
 ## Deploy &  Share your .NET Notebook on [binder](https://mybinder.org/)
 
-TBW
+Requirements 
+-  Git Repo
+-  [Jupyter + .NET kernel installed](#on-your-machine) 
+
+### Steps
+- Step up a [Git Repo](https://help.github.com/en/articles/create-a-repo).
+- Open a Terminal or Command prompt 
+- Clone your new repo `git clone repo url`
+- Switch to the repo directory 
+- Start a new notebook
+    `jupyter notebook` or `jupyter lab`
+- Click new and select one of the .NET options C# or F#
+
+    ![image](https://user-images.githubusercontent.com/2546640/66432173-70c42580-e9eb-11e9-895e-d08cb2f5c54d.png)    
+- Rename your Notebook
+    ![image](https://user-images.githubusercontent.com/2546640/66717693-ec3a2400-eda9-11e9-810d-099442c3e86c.png)
+- Start writing up your notebook. 
+
 
 # On your machine
 
