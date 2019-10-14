@@ -64,7 +64,9 @@ Requirements
 - Rename your Notebook
     ![image](https://user-images.githubusercontent.com/2546640/66717693-ec3a2400-eda9-11e9-810d-099442c3e86c.png)
 - Start writing up your notebook. 
-
+- Copy the following files into your repo 
+    - [NuGET.config](https://github.com/dotnet/try/blob/master/NuGet.config)
+    - [Docker File](https://github.com/dotnet/try/blob/master/Dockerfile)
 
 # On your machine
 
