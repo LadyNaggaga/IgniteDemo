@@ -27,7 +27,7 @@ To get you started, we created a set of samples (C# and F#).  These samples have
 
     ![Binder - Google Chrome 2019-10-08 19-48-33](https://user-images.githubusercontent.com/2546640/66441636-c9a0b780-ea05-11e9-9554-caf4fd7dfcde.gif)
 
--  Select one of the .NET folder options, "scharp" or "fsharp" (C# or F#)
+-  Select one of the .NET folder options, "csharp" or "fsharp" (C# or F#)
 -  In the C# or F# folder you will find a *Docs* and a *Samples* folder.
     - Docs folder - A how to guide that goes over formatting, plotting, magic commands etc. 
     ![image](https://user-images.githubusercontent.com/2546640/66443156-fb1c8180-ea0b-11e9-9a75-c9e8a0b415ab.png)
