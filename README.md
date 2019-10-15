@@ -23,19 +23,19 @@ To get you started, we created a set of samples (C# and F#).  These samples have
    [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try/master)
 
 
-- This launches the binder service.
+- This launches the binder service. If this is your first time visiting, it'll take a minute or two to cold start.
 
     ![Binder - Google Chrome 2019-10-08 19-48-33](https://user-images.githubusercontent.com/2546640/66441636-c9a0b780-ea05-11e9-9554-caf4fd7dfcde.gif)
 
--  Select one of the .NET folder options C# or F#
--  In the C# or F# folder you will find a Docs and a samples folder.
+-  Select one of the .NET folder options, "csharp" or "fsharp" (C# or F#)
+-  In the C# or F# folder you will find a *Docs* and a *Samples* folder.
     - Docs folder - A how to guide that goes over formatting, plotting, magic commands etc. 
     ![image](https://user-images.githubusercontent.com/2546640/66443156-fb1c8180-ea0b-11e9-9a75-c9e8a0b415ab.png)
 
     - Samples folder - Contains a set of samples that you learn and experiment with. 
     ![image](https://user-images.githubusercontent.com/2546640/66443240-4b93df00-ea0c-11e9-8bf2-57dd9394e0af.png)
 
-    - Select on the samples and start running the cells.
+    - Select the *Samples Folder*, pick a .ipynb file that looks interesting, and start running the cells. You can just click Run to run the first cell. Each time you click Run it will run the next cell. 
      
      *Please note the first cell might take a few seconds, since we are loading a few nuget packages*
         ![image](https://user-images.githubusercontent.com/2546640/66443801-7717c900-ea0e-11e9-89ce-00169c6b2815.png)
