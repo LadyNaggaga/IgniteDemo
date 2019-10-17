@@ -10,14 +10,6 @@ ENV HOME /home/${NB_USER}
 
 WORKDIR ${HOME}
 
-# Copy notebooks
-
-COPY ./notebooks/ ${HOME}/notebooks/
-
-# Copy package sources
-
-COPY ./NuGet.config ${HOME}/nuget.config
-
 USER root
 RUN apt-get update
 RUN apt-get install -y curl
@@ -55,11 +47,23 @@ ENV DOTNET_RUNNING_IN_CONTAINER=true \
 # Trigger first run experience by running arbitrary cmd
 RUN dotnet help
 
+# Copy notebooks
+
+COPY ./notebooks/ ${HOME}/notebooks/
+
+# Copy package sources
+
+COPY ./NuGet.config ${HOME}/nuget.config
+
 RUN chown -R ${NB_UID} ${HOME}
 USER ${USER}
 
-# Install Microsoft.DotNet.Interactive
+# Install lastest build from master branch of Microsoft.DotNet.Interactive from myget
 RUN dotnet tool install -g dotnet-try --add-source "https://dotnet.myget.org/F/dotnet-try/api/v3/index.json"
+
+# Or install latest Microsoft.DotNet.Interactive from nuget
+# RUN dotnet tool install -g dotnet-try 
+
 
 ENV PATH="${PATH}:${HOME}/.dotnet/tools"
 RUN echo "$PATH"
