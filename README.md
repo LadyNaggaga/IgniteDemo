@@ -36,9 +36,11 @@ To get you started, we created a set of samples (C# and F#).  These samples have
     ![image](https://user-images.githubusercontent.com/2546640/66443240-4b93df00-ea0c-11e9-8bf2-57dd9394e0af.png)
 
     - Select the *Samples Folder*, pick a .ipynb file that looks interesting, and start running the cells. You can just click Run to run the first cell. Each time you click Run it will run the next cell. 
-     
+    - Once the notebook has loaded make sure you trust it by clicking on the  **Not Trusted** button then **Trust** 
+     ![image](https://user-images.githubusercontent.com/2546640/67038545-9d63f580-f0ed-11e9-95d9-8df56a4c7b21.png)
      *Please note the first cell might take a few seconds, since we are loading a few nuget packages*
-        ![image](https://user-images.githubusercontent.com/2546640/66443801-7717c900-ea0e-11e9-89ce-00169c6b2815.png)
+
+    ![image](https://user-images.githubusercontent.com/2546640/66443801-7717c900-ea0e-11e9-89ce-00169c6b2815.png)
 
      - Now, you can run and edit the cells, import and plot data. 
      ![image](https://user-images.githubusercontent.com/2546640/66444711-45a0fc80-ea12-11e9-920c-d62dcd6fb365.png)
