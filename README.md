@@ -1,4 +1,4 @@
-# WIP : Jupyter + .NET Preview 1 documentation 
+Jupyter + .NET Preview 1 documentation 
 
 - [Getting started online](#online)
 - [Getting started on your machine](#on-your-machine) 
