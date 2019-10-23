@@ -8,7 +8,7 @@
 We have provided two online experiences to get you started. 
 
 - [Try our .NET Notebook](#try-jupyter--net)
-- [Create your own Binder](#deploy---share-your-net-notebook-on-binder)
+- [Create and Share your own Notebook online](#deploy---share-your-net-notebook-on-binder)
 
 ## Try Jupyter + .NET 
 
