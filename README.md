@@ -20,7 +20,7 @@ To get you started, we created a set of samples (C# and F#).  These samples have
 
 - Click on the **launch binder** badge below. 
 
-   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try/master?urlpath=lab/tree/index.ipynb)
+   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try/master?urlpath=lab/tree)
 
 
 - This launches the binder service. If this is your first time visiting, it'll take a minute or two to cold start.
