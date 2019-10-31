@@ -1,5 +1,5 @@
 # Try .NET <img src ="https://user-images.githubusercontent.com/2546640/56708992-deee8780-66ec-11e9-9991-eb85abb1d10a.png" width="80px" alt="dotnet bot in space" align ="right">
-|| [**Basics**](#basics) • [**Contribution Guidelines**](#contribution) • [**Experiences**](#experiences) || [**Setup**](#setup) • [**Getting Started**](#getting-started) || [**Samples**](https://github.com/dotnet/try-samples) ||
+|| [**Basics**](#basics) • [**Experiences**](#experiences) || [**Setup**](#setup) • [**Getting Started**](#getting-started) || [**Samples**](https://github.com/dotnet/try-samples) ||
 
 ![Try_.NET Enabled](https://img.shields.io/badge/Try_.NET-Enabled-501078.svg)
 
@@ -12,9 +12,6 @@
 
 **Please Note**: At the moment Try .NET only works with C# documentation. 
 
-## Contribution Guidelines
-As we are still in the early stages of our development, we are unable to take any feature PRs at the moment but, we do intend to do this in the future.
-Please feel free to file any bugs reports under our issues. And if you have any feature suggestion, please submit them under our issues using the community suggestions label.
 
 ## Experiences 
  Use Try .NET to create executable C# snippets for your websites or,  interactive markdown files that users can run on their machine. 
