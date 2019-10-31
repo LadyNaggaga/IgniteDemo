@@ -1,14 +1,18 @@
-# How to setup a my binder instance
+# How to share your notebooks on [Binder](https://mybinder.org/)
 
 If you want to share notebooks you have made using .Net kernels one easy way is to generate a binder image that everyone can open and execute.
 
-You will need:
+Requisites: 
 
+* A Github repo and at least one notebook to share
 * **Dockerfile** to create the binder image
 * **Nuget.Config** file to provide package source to use in notebooks
 * Your notebooks
 
 You can use the Dockerfile and Nuget.Config files from this repository to get started.
+
+## Steps
+
 
 The repo file structure should look something like this.
 ![image](https://user-images.githubusercontent.com/375556/67017073-19137180-f0f1-11e9-9744-b5f8ec532e32.png)
