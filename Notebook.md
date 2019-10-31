@@ -1,3 +1,9 @@
+* [try online our latest on binder](NotebooksOnBinder.md)
+* [local install and get started](NotebooksLocalExperience.md)
+* [share your .Net notebooks](CreateBinder.md)
+
+The repo folder Notebook Examples contains documentation about the api available via C# and F#. You can see how to print values and format data, plot and load packages 
+
 # Jupyter + .NET Preview 1 documentation 
 
 - [Getting started online](#online)
