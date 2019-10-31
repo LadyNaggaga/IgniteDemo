@@ -1,10 +1,10 @@
-
+# Getting started with dotnet try 
 ## Setup
 Before you get can start creating interactive documentation, you will need to install the following: 
-- [.NET Core 3.0 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.0) and [2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) currently `dotnet try` global tool targets 2.1.
+- [.NET Core 3.0 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.0) 
 - [dotnet try global tool](https://www.nuget.org/packages/dotnet-try/)
 
-`dotnet tool install --global dotnet-try --version 1.0.19264.11`
+`dotnet tool install --global dotnet-try`
 
 Updating to the latest version of the tool is easy just run the command below 
 
@@ -63,3 +63,5 @@ You have created your first C# interactive developer experience. You should now 
 **Option 3**: Explore our [samples Repo](https://github.com/dotnet/try-samples). 
 - Clone the [dotnet/try-samples](https://github.com/dotnet/try-samples) repo.
 - Follow the quick steps listed [here](https://github.com/dotnet/try-samples#basics) to get started.
+
+Return to [README.md](README.md)

@@ -1,4 +1,5 @@
- On your machine
+# Create .NET Jupyter Notebooks
+##### Getting started locally your machine 
 
 ### Installation 
 
@@ -29,31 +30,18 @@ Requirements
 
     You should see the `.net-csharp`  and `.net-fsharp` listed.
 
-    [Insert Image here]
--  You can use either one the commands below to a start a notebook.  
-
-    `jupyter notebook` - Starts Jupyter notebooks.
-
-    Or
-   
-    `jupyter lab` - Starts [Jupyter Lab](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)
-- Click new and select one of the .NET options C# or F#
-
-    ![image](https://user-images.githubusercontent.com/2546640/66432173-70c42580-e9eb-11e9-895e-d08cb2f5c54d.png)    
+    ![kernelspec](https://user-images.githubusercontent.com/2546640/67889556-76fa7d00-fb25-11e9-9d23-e4178642b721.png)
+* To start a new notebook, you can either type `jupyter lab`  Anaconda prompt or launch a notebook using the Anaconda Navigator.
+* Once Jupyter Lab has launched in your preferred browser, you have the option to create a **C# and F# notebook**.
+![notebook](https://user-images.githubusercontent.com/2546640/67889988-3b13e780-fb26-11e9-91a1-48d5972b5df2.png)
 
 -  Now you can write .NET 
-    ![image](https://user-images.githubusercontent.com/2546640/66432344-d9ab9d80-e9eb-11e9-9a88-cdd9a349b58f.png)
+    ![dotnetcode](https://user-images.githubusercontent.com/2546640/67981834-db860c80-fbf7-11e9-89b5-29d2480ed1fa.png)
 
--  Start a notebook 
+For more information on our APIs via C# and F#, please check out our documentation on [binder](https://mybinder.org/v2/gh/dotnet/try/master?urlpath=lab) or in dotnet/try repo in the NotebookExamples folder.
 
-    `jupyter notebook`
+ ![docs](https://user-images.githubusercontent.com/2546640/67980555-120e5800-fbf5-11e9-9c00-0d021b1ed21c.png)
 
-    ![image](https://user-images.githubusercontent.com/2546640/66431857-d532b500-e9ea-11e9-9203-e5626fc3aa67.png)
+ Now that you have created your .NET notebook, you probably want to share it with others. In the [next document](CreateBinder.md), you will learn how to share your .NET notebook with others using binder. 
 
-
-- Click new and select one of the .NET options C# or F#
-
-    ![image](https://user-images.githubusercontent.com/2546640/66432173-70c42580-e9eb-11e9-895e-d08cb2f5c54d.png)    
-
--  Now you can write .NET 
-    ![image](https://user-images.githubusercontent.com/2546640/66432344-d9ab9d80-e9eb-11e9-9a88-cdd9a349b58f.png)
+ Happy sharing! 

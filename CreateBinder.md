@@ -1,5 +1,6 @@
-# How to share your notebooks on [Binder](https://mybinder.org/)
+# Share your notebooks on [Binder](https://mybinder.org/)
 
+###### How to share your .NET Jupyter Notebook 
 If you want to share notebooks you have made using .Net kernels one easy way is to generate a binder image that everyone can open and execute.
 
 Requisites: 
@@ -8,7 +9,7 @@ Requisites:
 * **Dockerfile** to create the binder image
 * **Nuget.Config** file to provide package source to use in notebooks
 
-You can use the Dockerfile and Nuget.Config files from teh folder `Binder Dependecies` to get started.
+You can use the Dockerfile and Nuget.Config files from the folder `Binder Dependecies` to get started.
 
 ## Steps
 
@@ -61,3 +62,5 @@ For example turn
 into 
 
 ```[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try/master?urlpath=lab)```
+
+Return to [README.md](README.md)
