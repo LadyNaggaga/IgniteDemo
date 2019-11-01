@@ -28,7 +28,7 @@ To get you started, we created a set of samples (C# and F#).  These samples have
     - Select the *Samples Folder*, pick a .ipynb file that looks interesting, and start running the cells. You can just click Run to run the first cell. Each time you click Run it will run the next cell. 
     - Once the notebook has loaded make sure you trust it by clicking on the  **Not Trusted** button then **Trust** 
     
-      <img src ="https://user-images.githubusercontent.com/2546640/67038545-9d63f580-f0ed-11e9-95d9-8df56a4c7b21.png" width ="50%">
+      <img src ="https://user-images.githubusercontent.com/2546640/67038545-9d63f580-f0ed-11e9-95d9-8df56a4c7b21.png" width ="60%">
 
      *Please note the first cell might take a few seconds, since we are loading a few nuget packages*
       
