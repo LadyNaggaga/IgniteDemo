@@ -17,12 +17,14 @@
 **Websites** 
 
 Microsoft Docs uses Try .NET to create interactive documentation. Users can run and edit code all in the browser.
-![Try NET_online](https://user-images.githubusercontent.com/2546640/57144765-c850cc00-6d8f-11e9-982d-50d2b6dc3591.gif)
+
+<img src ="https://user-images.githubusercontent.com/2546640/57144765-c850cc00-6d8f-11e9-982d-50d2b6dc3591.gif" width = "80%">
 
 **Interactive .NET documentation**
 
 Try .NET enables .NET developers to create interactive markdown files.
 To make your markdown files interactive, you will need to [.NET Core 3.0 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.0), the dotnet try global tool and [Visual Studio](https://visualstudio.microsoft.com/) / [VS Code](https://code.visualstudio.com/)(or any other editor of your choice). 
-![interactive_doc](https://user-images.githubusercontent.com/2546640/57158389-47a2c780-6db1-11e9-96ad-8c6e9ab52853.png)
+
+<img src ="https://user-images.githubusercontent.com/2546640/57158389-47a2c780-6db1-11e9-96ad-8c6e9ab52853.png" width = "80%">
 
 To get started follow [setup](DotNetTryLocal.md) instructions

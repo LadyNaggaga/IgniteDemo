@@ -34,7 +34,16 @@ You can get started using either one of the options below.
 **Option1**: `dotnet try demo` 
 - Create a new folder.
 - `cd` to your new folder.
-- Run command `dotnet try demo` 
+- Run command `dotnet try demo` : This will load our interactive dotnet try getting started tutorial. 
+<img src = "https://user-images.githubusercontent.com/2546640/68031087-4c2d3780-fc91-11e9-803f-228116e6afa2.png" width ="60%">
+
+The tutorials below work you through the following:
+- Creating a new Try .NET project.
+- Display interactive snippets using C# regions.
+- Creating Sessions
+- Verifying your projects: `dotnet try verify` a compiler for your documentation.
+- Passing Arguments
+- Using read only snippets
 
 **Option 2**: Starting from scratch.
 1. Go to the terminal and create a folder called `mydoc`.
