@@ -1,5 +1,5 @@
 # Try .NET <img src ="https://user-images.githubusercontent.com/2546640/56708992-deee8780-66ec-11e9-9991-eb85abb1d10a.png" width="80px" alt="dotnet bot in space" align ="right">
-|| [**Contribution Guidelines**](#contribution) ||
+|| [**Contribution Guidelines**](#contribution) || [**Table of content**](#table-of-content) || [**Customers & Partners**](##customers-&-partners) ||
 
 ![Try_.NET Enabled](https://img.shields.io/badge/Try_.NET-Enabled-501078.svg)
 
@@ -37,7 +37,7 @@ Our interactive experience powers the online interactive .NET documentation, [do
 As we are still in the early stages of our development, we are unable to take any feature PRs at the moment but, we do intend to do this in the future.
 Please feel free to file any bugs reports under our issues. And if you have any feature suggestion, please submit them under our issues using the community suggestions label.
 
-## Partners
+## Customers & Partners
 | Microsoft Docs   |    Azure Synapse & HD Insight    |Azure HDInsight (HDI)  |
 |----------|:-------------:|:-------------:|
 |Microsoft Docs uses [Try .NET](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/hello-world) to create interactive documentation. Users can run and edit .NET code in the browser. | Azure Synapse uses the .NET kernel to write and run quick ad-hoc queries in addition to developing complete, end-to-end big data scenarios, such as reading in data, transforming it, and visualizing it|You can launch Jupyter notebooks from your HDInsight cluster to run big data queries against the compute resources in that cluster. |
