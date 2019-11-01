@@ -15,16 +15,16 @@ There are different flavors of  Try .NET interactive experiences from the web wi
 ### Flavors of Try .NET 
 **Try .NET Online**
 
-<img src="https://user-images.githubusercontent.com/2546640/57144765-c850cc00-6d8f-11e9-982d-50d2b6dc3591.gif" width="40%">
+<img src="https://user-images.githubusercontent.com/2546640/57144765-c850cc00-6d8f-11e9-982d-50d2b6dc3591.gif" width="60%">
 
 **Interactive .NET Core documentation with `dotnet try global tool`**
 
-<img src="https://user-images.githubusercontent.com/2546640/57158389-47a2c780-6db1-11e9-96ad-8c6e9ab52853.png" width="38%">
+<img src="https://user-images.githubusercontent.com/2546640/57158389-47a2c780-6db1-11e9-96ad-8c6e9ab52853.png" width="52%">
 
 **Jupyter Notebooks with .NET**
 
-<img src="https://user-images.githubusercontent.com/2546640/67889988-3b13e780-fb26-11e9-91a1-48d5972b5df2.png" width="40%">
-<img src="https://user-images.githubusercontent.com/2546640/67912370-1b99b080-fb60-11e9-9839-0058d02488cf.png" width="38%">
+<img src="https://user-images.githubusercontent.com/2546640/67889988-3b13e780-fb26-11e9-91a1-48d5972b5df2.png" width="60%">
+<img src="https://user-images.githubusercontent.com/2546640/67912370-1b99b080-fb60-11e9-9839-0058d02488cf.png" width="52%">
 
 Our interactive experience powers the online interactive .NET documentation, [dotnet try global tool](DotNetTry.md) and [Notebooks](Notebook.md).
 
