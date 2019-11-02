@@ -1,5 +1,5 @@
 # Create .NET Jupyter Notebooks
-##### Getting started locally your machine 
+##### Getting started locally on your machine 
 
 ### Installation 
 
